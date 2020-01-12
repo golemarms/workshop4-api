@@ -1001,6 +1001,19 @@ https://www.iana.org/assignments/jwt/jwt.xhtml#claims
 2. Create Google account, create a google cloud platform project, generate oauth2 credentials, create callback URL, enable google calendar API.
 
 
-3. I will be using a API gateway to front the service. Its either Kong or Express Gateway
+3. I will be using a API gateway to front the service. Its either Kong or Express Gateway. Therefore with this approach I did not need to change the video API
 
 https://www.express-gateway.io/getting-started/
+
+* A single config to control it all
+* Auto-detect and hot-reload config changes
+* Plugin architecture
+* A gateway for any language
+* A gateway for any framework
+* A gateway for all microservice use cases
+* Built on Express Middleware and Node
+* Pre-bundled with the most proven and popular modules
+* Extend with any Express Middleware
+* Run anywhere with Docker in your public or private cloud
+* Works with any orchestrator and service mesh
+* Plug into your DevOps tooling
