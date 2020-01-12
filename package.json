@@ -1,0 +1,38 @@
+{
+  "name": "workshop04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "apidoc": {
+    "title": "Cities API",
+    "url": "https://localhost:3000/api"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "consul": "^0.37.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-cache-controller": "^1.1.0",
+    "express-json-validator-middleware": "^2.0.0",
+    "express-openapi-validator": "^3.6.0",
+    "express-preconditions": "^1.0.5",
+    "express-range": "^2.0.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.6",
+    "path": "^0.12.7",
+    "uuid": "^3.3.3",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^1.0.8-4.2.2"
+  }
+}
