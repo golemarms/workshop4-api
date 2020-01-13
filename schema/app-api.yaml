@@ -47,7 +47,7 @@ paths:
     /api/state/{stateId}:
         get:
             description: "Returns a list of cities from the state"
-            operationId: getCtitesByState
+            operationId: getCitiesByState
             parameters:
             - name: stateId
               in: path

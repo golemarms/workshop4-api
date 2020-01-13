@@ -114,8 +114,7 @@ router.post('/api/city', auth,
     resp.type('application/json')
 
     City.create(params)
-        .then((error, result) => {
-            if (error) return resp.status(400).json({ error: error });
+        .then((result) => {
             return resp.status(201).json(result);
         })
         .catch(error => {

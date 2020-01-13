@@ -32,7 +32,6 @@ app.use(userRouter);
 app.use(cityRouter);
 app.use(helmet());
 
-
 new OpenAPIValidator({ 
     apiSpec: join(__dirname, 'schema', 'app-api.yaml')
 }).install(app)
