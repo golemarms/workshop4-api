@@ -1,3 +1,18 @@
+## Workshop  4
+
+```
+npm install apidoc -g
+apidoc -f "routes/.*\\.js$" -i ./  -o apidoc/
+npm install && npm start
+open http://localhost:3000/apidoc/index.html
+
+```
+
+Start the consul service discovery agent
+```
+consul agent -dev -ui -node mynode
+```
+
 ## Worksheet 3
  1. a.
 

@@ -32,8 +32,6 @@ app.use(userRouter);
 app.use(cityRouter);
 app.use(helmet());
 
-app.use('/apidoc', express.static(join(__dirname, 'apidoc')));
-
 new OpenAPIValidator({ 
     apiSpec: join(__dirname, 'schema', 'app-api.yaml')
 }).install(app)
