@@ -9,8 +9,8 @@ router.post(`${API_URL}/users`, async (req, res) => {
     // Create a new user
     try {
         const user = new User(req.body)
-        await user.save()
         const token = await user.generateAuthToken()
+        await user.save()
         res.status(201).json({ user, token })
     } catch (error) {
         res.status(400).send(error)
