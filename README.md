@@ -1,5 +1,12 @@
 ## Workshop  4
 
+Import cities data to mongodb
+
+```
+mongoimport --db=cities --collection=cities --file=./zips.json
+```
+
+Generate API doc
 ```
 npm install apidoc -g
 apidoc -f "routes/.*\\.js$" -i ./  -o apidoc/
